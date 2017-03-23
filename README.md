@@ -8,7 +8,7 @@ this is the buzzn bootstrap theme.
 - start overwriting bootstrap styles in buzzn-bootstrap/style
 
 #### production install
-
+- `npm install "git://github.com/buzzn/buzzn-bootstrap.git" --save`
 
 
 ### infos
