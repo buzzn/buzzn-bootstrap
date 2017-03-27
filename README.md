@@ -10,5 +10,5 @@ this is the buzzn css repo.
 #### production install
 - `npm install "git://github.com/buzzn/buzzn-style.git" --save`
 
-### infos
+#### infos
 https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165#.an7mh589e
