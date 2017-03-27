@@ -4,13 +4,13 @@
   "description": "",
   "main": "build/index.css",
   "scripts": {
-    "build": "node-sass style/index.scss build/index.css",
+    "build": "node-sass src/index.scss build/index.css",
     "start": "npm-watch"
   },
   "watch": {
     "build": {
       "patterns": [
-        "style"
+        "src"
       ],
       "extensions": "scss"
     }
