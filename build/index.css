@@ -1,65 +1,3 @@
-@font-face {
-  font-family: "TitilliumWeb-Thin";
-  font-style: "normal";
-  font-weight: 500;
-  src: url("../fonts/TitilliumWeb-Thin.woff") format("woff"); }
-
-/* CONTENT MARGIN */
-/*======================================*/
-.mar-no {
-  margin: 0 !important; }
-
-.mar-all {
-  margin: 15px; }
-
-.mar-top {
-  margin-top: 15px; }
-
-.mar-btm {
-  margin-bottom: 15px; }
-
-.mar-lft {
-  margin-left: 15px; }
-
-.mar-rgt {
-  margin-right: 15px; }
-
-.mar-hor {
-  margin-left: 15px;
-  margin-right: 15px; }
-
-.mar-ver {
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-/* CONTENT PADDING */
-/*======================================*/
-.pad-no {
-  padding: 0; }
-
-.pad-all {
-  padding: 15px; }
-
-.pad-top {
-  padding-top: 15px; }
-
-.pad-btm {
-  padding-bottom: 15px; }
-
-.pad-lft {
-  padding-left: 15px; }
-
-.pad-rgt {
-  padding-right: 15px; }
-
-.pad-hor {
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.pad-ver {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -6048,3 +5986,70 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+@font-face {
+  font-family: "TitilliumWeb-Thin";
+  font-style: "normal";
+  font-weight: 500;
+  src: url("../fonts/TitilliumWeb-Thin.woff") format("woff"); }
+
+.tile {
+  background-color: #f7f7f9;
+  padding: 15px;
+  margin-bottom: 15px; }
+
+/* CONTENT MARGIN */
+/*======================================*/
+.mar-no {
+  margin: 0 !important; }
+
+.mar-all {
+  margin: 15px; }
+
+.mar-top {
+  margin-top: 15px; }
+
+.mar-btm {
+  margin-bottom: 15px; }
+
+.mar-lft {
+  margin-left: 15px; }
+
+.mar-rgt {
+  margin-right: 15px; }
+
+.mar-hor {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.mar-ver {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/* CONTENT PADDING */
+/*======================================*/
+.pad-no {
+  padding: 0; }
+
+.pad-all {
+  padding: 15px; }
+
+.pad-top {
+  padding-top: 15px; }
+
+.pad-btm {
+  padding-bottom: 15px; }
+
+.pad-lft {
+  padding-left: 15px; }
+
+.pad-rgt {
+  padding-right: 15px; }
+
+.pad-hor {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.pad-ver {
+  padding-top: 15px;
+  padding-bottom: 15px; }

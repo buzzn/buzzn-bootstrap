@@ -1,9 +1,13 @@
 @import "./font-face-builder";
 $font-path: "../fonts";
-
 @include font-face('TitilliumWeb-Thin', '../fonts/TitilliumWeb-Thin', 500, 'normal', 'woff');
 
 
+.tile {
+  background-color: $gray-lightest;
+  padding: 15px;
+  margin-bottom: 15px;
+}
 
 /* CONTENT MARGIN */
 /*======================================*/
