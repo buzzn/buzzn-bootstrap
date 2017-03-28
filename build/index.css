@@ -5993,6 +5993,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-weight: 500;
   src: url("../fonts/TitilliumWeb-Thin.woff") format("woff"); }
 
+button:focus {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important; }
+
 .tile {
   background-color: #f7f7f9;
   padding: 15px;

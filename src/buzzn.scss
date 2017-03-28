@@ -2,6 +2,11 @@
 $font-path: "../fonts";
 @include font-face('TitilliumWeb-Thin', '../fonts/TitilliumWeb-Thin', 500, 'normal', 'woff');
 
+// remove chrome and firefox button glow
+button:focus{
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
 
 .tile {
   background-color: $gray-lightest;
