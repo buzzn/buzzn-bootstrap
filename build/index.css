@@ -1,3 +1,9 @@
+h1, .h1 {
+  font-family: 'Asap-Bold' !important; }
+
+h2, .h2 {
+  font-family: 'Asap-Medium' !important; }
+
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -431,19 +437,19 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 4.5rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 4.125rem; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 3.375rem; }
 
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 2.125rem; }
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 1.5rem; }
 
 h6, .h6 {
   font-size: 1rem; }
@@ -5992,6 +5998,18 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-style: "normal";
   font-weight: 400;
   src: url("../fonts/Asap-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Asap-Medium";
+  font-style: "normal";
+  font-weight: 500;
+  src: url("../fonts/Asap-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Asap-Bold";
+  font-style: "normal";
+  font-weight: 700;
+  src: url("../fonts/Asap-Bold.ttf") format("truetype"); }
 
 button:focus {
   -webkit-box-shadow: none !important;

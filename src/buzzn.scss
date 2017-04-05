@@ -1,6 +1,9 @@
 @import "./font-face-builder";
 $font-path: "../fonts";
 @include font-face('Asap-Regular', '../fonts/Asap-Regular', 400, 'normal', 'ttf');
+@include font-face('Asap-Medium', '../fonts/Asap-Medium', 500, 'normal', 'ttf');
+@include font-face('Asap-Bold', '../fonts/Asap-Bold', 700, 'normal', 'ttf');
+
 
 // remove chrome and firefox button glow
 button:focus{
