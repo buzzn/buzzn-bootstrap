@@ -4,6 +4,30 @@ $font-path: "../fonts";
 @include font-face('Asap-Medium', '../fonts/Asap-Medium', 500, 'normal', 'ttf');
 @include font-face('Asap-Bold', '../fonts/Asap-Bold', 700, 'normal', 'ttf');
 
+$white-two: #f5f5f5;
+$white-three: #e0e0e0;
+$warm-grey: #9e9e9e;
+$brownish-grey: #616161;
+$dull-yellow: #d4e157;
+$sick-green: #c0ca33;
+$sick-green-two: #afb42b;
+$tiffany-blue: #80deea;
+$aqua-marine: #4dd0e1;
+$turquoise-blue: #00bcd4;
+$sunshine-yellow: #ffeb3b;
+$sun-yellow: #fdd835;
+$orangey-yellow: #fbc02d;
+$mango: #ffa726;
+$tangerine: #ff9800;
+$pumpkin-orange: #f57c00;
+$powder-blue: #bbdefb;
+$light-blue: #90caf9;
+$dodger-blue: #42a5f5;
+$lightblue: #64b5f6;
+$dark-sky-blue: #1e88e5;
+$water-blue: #1976d2;
+$pinkish-grey: #bdbdbd;
+
 
 // remove chrome and firefox button glow
 button:focus{
@@ -16,6 +40,87 @@ button:focus{
   padding: 15px;
   margin-bottom: 15px;
 }
+
+.panel {
+  color: $white-two;
+}
+
+
+/* ICONS */
+/*======================================*/
+.icon-wrap {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 2px;
+}
+.icon-wrap i {
+  display: block;
+  line-height: 1em;
+  text-align: center;
+  position: relative;
+  width: 1em;
+  padding-top: 1em;
+  vertical-align: middle;
+}
+.icon-wrap i:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.icon-wrap .icon-txt {
+  display: block;
+  line-height: 1em;
+  text-align: center;
+  position: relative;
+  width: 1em;
+  vertical-align: top;
+}
+.icon-wrap-lg {
+  padding: 20px;
+}
+.icon-wrap-md {
+  padding: 17px;
+}
+.icon-wrap-sm {
+  padding: 12px;
+}
+.icon-wrap-xs {
+  padding: 7px;
+}
+.icon-circle {
+  border-radius: 50%;
+}
+.icon-lg:before {
+  font-size: 1.333em;
+  line-height: 1.095em;
+  vertical-align: middle;
+}
+.icon-2x:before {
+  font-size: 2em;
+  line-height: 1em;
+}
+.icon-3x:before {
+  font-size: 3em;
+  line-height: 1em;
+}
+.icon-4x:before {
+  font-size: 4em;
+  line-height: 1em;
+}
+.icon-5x:before {
+  font-size: 5em;
+  line-height: 1em;
+}
+
+
+.panel-primary {
+  background-color: #5fa2dd;
+  border-color: #5fa2dd;
+  color: #ffffff;
+}
+
 
 /* CONTENT MARGIN */
 /*======================================*/

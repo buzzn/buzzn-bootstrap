@@ -20,6 +20,13 @@ $gray-light:    #636c72;
 $gray-lighter:  #eceeef;
 $gray-lightest: #f7f7f9;
 
+$brand-primary: $blue !default;
+$brand-success: $green !default;
+$brand-info:    $teal !default;
+$brand-warning: $orange !default;
+$brand-danger:  $red !default;
+$brand-inverse: $gray-dark !default;
+
 $alert-border-radius: 0px;
 $alert-border-width: 0px;
 
@@ -29,15 +36,13 @@ $font-size-h3: 3.375rem;
 $font-size-h4: 2.125rem;
 $font-size-h5: 1.5rem;
 
-h1, .h1 {
-  font-family: 'Asap-Bold' !important;
-}
+h1, .h1 { font-family: 'Asap-Bold' !important;}
+h2, .h2 { font-family: 'Asap-Medium' !important; }
 
-h2, .h2 {
-  font-family: 'Asap-Medium' !important;
-}
-
-
-
+.bg-primary { background-color: $brand-primary; }
+.bg-success { background-color: $brand-success; }
+.bg-info { background-color: $brand-info; }
+.bg-warning { background-color: $brand-warning; }
+.bg-danger { background-color: $brand-danger; }
 
 @import "./node_modules/bootstrap/scss/bootstrap";
