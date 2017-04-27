@@ -22,12 +22,35 @@ $tangerine: #ff9800;
 $pumpkin-orange: #f57c00;
 $powder-blue: #bbdefb;
 $light-blue: #90caf9;
+$light-blue2: #64b5f6;
 $dodger-blue: #42a5f5;
-$lightblue: #64b5f6;
 $dark-sky-blue: #1e88e5;
 $water-blue: #1976d2;
 $pinkish-grey: #bdbdbd;
 
+.bg-white-two{ background-color: $white-two; }
+.bg-white-three{ background-color: $white-three; }
+.bg-warm-grey{ background-color: $warm-grey; }
+.bg-brownish-grey{ background-color: $brownish-grey; }
+.bg-dull-yellow{ background-color: $dull-yellow; }
+.bg-sick-green{ background-color: $sick-green; }
+.bg-sick-green-two{ background-color: $sick-green-two; }
+.bg-tiffany-blue{ background-color: $tiffany-blue; }
+.bg-aqua-marine{ background-color: $aqua-marine; }
+.bg-turquoise-blue{ background-color: $turquoise-blue; }
+.bg-sunshine-yellow{ background-color: $sunshine-yellow; }
+.bg-sun-yellow{ background-color: $sun-yellow; }
+.bg-orangey-yellow{ background-color: $orangey-yellow; }
+.bg-mango{ background-color: $mango; }
+.bg-tangerine{ background-color: $tangerine; }
+.bg-pumpkin-orange{ background-color: $pumpkin-orange; }
+.bg-powder-blue{ background-color: $powder-blue; }
+.bg-light-blue{ background-color: $light-blue; }
+.bg-dodger-blue{ background-color: $dodger-blue; }
+.bg-light-blue2{ background-color: $light-blue2; }
+.bg-dark-sky-blue{ background-color: $dark-sky-blue; }
+.bg-water-blue{ background-color: $water-blue; }
+.bg-pinkish-grey{ background-color: $pinkish-grey; }
 
 // remove chrome and firefox button glow
 button:focus{

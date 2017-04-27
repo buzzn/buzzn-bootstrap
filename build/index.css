@@ -8356,6 +8356,75 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-weight: 700;
   src: url("../fonts/Asap-Bold.ttf") format("truetype"); }
 
+.bg-white-two {
+  background-color: #f5f5f5; }
+
+.bg-white-three {
+  background-color: #e0e0e0; }
+
+.bg-warm-grey {
+  background-color: #9e9e9e; }
+
+.bg-brownish-grey {
+  background-color: #616161; }
+
+.bg-dull-yellow {
+  background-color: #d4e157; }
+
+.bg-sick-green {
+  background-color: #c0ca33; }
+
+.bg-sick-green-two {
+  background-color: #afb42b; }
+
+.bg-tiffany-blue {
+  background-color: #80deea; }
+
+.bg-aqua-marine {
+  background-color: #4dd0e1; }
+
+.bg-turquoise-blue {
+  background-color: #00bcd4; }
+
+.bg-sunshine-yellow {
+  background-color: #ffeb3b; }
+
+.bg-sun-yellow {
+  background-color: #fdd835; }
+
+.bg-orangey-yellow {
+  background-color: #fbc02d; }
+
+.bg-mango {
+  background-color: #ffa726; }
+
+.bg-tangerine {
+  background-color: #ff9800; }
+
+.bg-pumpkin-orange {
+  background-color: #f57c00; }
+
+.bg-powder-blue {
+  background-color: #bbdefb; }
+
+.bg-light-blue {
+  background-color: #90caf9; }
+
+.bg-dodger-blue {
+  background-color: #42a5f5; }
+
+.bg-light-blue2 {
+  background-color: #64b5f6; }
+
+.bg-dark-sky-blue {
+  background-color: #1e88e5; }
+
+.bg-water-blue {
+  background-color: #1976d2; }
+
+.bg-pinkish-grey {
+  background-color: #bdbdbd; }
+
 button:focus {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important; }
