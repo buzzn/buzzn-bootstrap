@@ -53,7 +53,7 @@ $pinkish-grey: #bdbdbd;
 .bg-pinkish-grey{ background-color: $pinkish-grey; }
 
 // remove chrome and firefox button glow
-button:focus{
+.btn:focus{
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
 }

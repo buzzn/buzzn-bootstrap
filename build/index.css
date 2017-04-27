@@ -8425,7 +8425,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .bg-pinkish-grey {
   background-color: #bdbdbd; }
 
-button:focus {
+.btn:focus {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important; }
 
