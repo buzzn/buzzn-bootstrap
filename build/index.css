@@ -8430,8 +8430,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   -moz-box-shadow: none !important; }
 
 a:focus {
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important; }
+  color: none !important; }
 
 .tile {
   background-color: #f7f7f9;
