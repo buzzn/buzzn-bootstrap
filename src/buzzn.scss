@@ -58,6 +58,11 @@ $pinkish-grey: #bdbdbd;
   -moz-box-shadow: none !important;
 }
 
+a:focus{
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
 .tile {
   background-color: $gray-lightest;
   padding: 15px;

@@ -8429,6 +8429,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important; }
 
+a:focus {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important; }
+
 .tile {
   background-color: #f7f7f9;
   padding: 15px;
