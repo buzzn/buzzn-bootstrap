@@ -5,52 +5,62 @@ $font-path: "../fonts";
 @include font-face('Asap-Bold', '../fonts/Asap-Bold', 700, 'normal', 'ttf');
 
 $grey-superlight: #f5f5f5;
-$white-three: #e0e0e0;
-$grey-superlight: #9e9e9e;
-$brownish-grey: #616161;
-$dull-yellow: #d4e157;
-$sick-green: #c0ca33;
-$sick-green-two: #afb42b;
-$tiffany-blue: #80deea;
-$aqua-marine: #4dd0e1;
-$turquoise-blue: #00bcd4;
-$sunshine-yellow: #ffeb3b;
-$sun-yellow: #fdd835;
-$orangey-yellow: #fbc02d;
-$mango: #ffa726;
-$tangerine: #ff9800;
-$pumpkin-orange: #f57c00;
-$powder-blue: #bbdefb;
-$light-blue: #90caf9;
-$light-blue2: #64b5f6;
-$dodger-blue: #42a5f5;
-$dark-sky-blue: #1e88e5;
-$water-blue: #1976d2;
-$pinkish-grey: #bdbdbd;
+$grey-light: #e0e0e0;
+$grey-mid: #9e9e9e;
+$grey-dark: #616161;
+$production-light: #f0f4c3;
+$production: #d4e157;
+$production-mid: #c0ca33;
+$production-dark: #afb42b;
+$consumption-light: #b2ebf2;
+$consumption: #80deea;
+$consumption-mid: #4dd0e1;
+$consumption-dark: #00bcd4;
+$solar-light: #fff176;
+$solar: #ffeb3b;
+$solar-mid: #fdd835;
+$solar-dark: #fbc02d;
+$heat-light: #ffcc80;
+$heat: #ffa726;
+$heat-mid: #ff9800;
+$heat-dark: #f57c00;
+$wind-light: #e3f2fd;
+$wind: #bbdefb;
+$wind-mid: #90caf9;
+$water: #64b5f6;
+$wind-dark: #42a5f5;
+$water-mid: #1e88e5;
+$water-dark: #1976d2;
+$community: #bdbdbd;
 
 .bg-grey-superlight{ background-color: $grey-superlight; }
-.bg-white-three{ background-color: $white-three; }
-.bg-grey-superlight{ background-color: $grey-superlight; }
-.bg-brownish-grey{ background-color: $brownish-grey; }
-.bg-dull-yellow{ background-color: $dull-yellow; }
-.bg-sick-green{ background-color: $sick-green; }
-.bg-sick-green-two{ background-color: $sick-green-two; }
-.bg-tiffany-blue{ background-color: $tiffany-blue; }
-.bg-aqua-marine{ background-color: $aqua-marine; }
-.bg-turquoise-blue{ background-color: $turquoise-blue; }
-.bg-sunshine-yellow{ background-color: $sunshine-yellow; }
-.bg-sun-yellow{ background-color: $sun-yellow; }
-.bg-orangey-yellow{ background-color: $orangey-yellow; }
-.bg-mango{ background-color: $mango; }
-.bg-tangerine{ background-color: $tangerine; }
-.bg-pumpkin-orange{ background-color: $pumpkin-orange; }
-.bg-powder-blue{ background-color: $powder-blue; }
-.bg-light-blue{ background-color: $light-blue; }
-.bg-dodger-blue{ background-color: $dodger-blue; }
-.bg-light-blue2{ background-color: $light-blue2; }
-.bg-dark-sky-blue{ background-color: $dark-sky-blue; }
-.bg-water-blue{ background-color: $water-blue; }
-.bg-pinkish-grey{ background-color: $pinkish-grey; }
+.bg-grey-light{ background-color: $grey-light; }
+.bg-grey-mid{ background-color: $grey-mid; }
+.bg-grey-dark{ background-color: $grey-dark; }
+.bg-production-light{ background-color: $production-light; }
+.bg-production{ background-color: $production; }
+.bg-production-mid{ background-color: $production-mid; }
+.bg-production-dark{ background-color: $production-dark; }
+.bg-consumption-light{ background-color: $consumption-light; }
+.bg-consumption{ background-color: $consumption; }
+.bg-consumption-mid{ background-color: $consumption-mid; }
+.bg-consumption-dark{ background-color: $consumption-dark; }
+.bg-solar-light{ background-color: $solar-light; }
+.bg-solar{ background-color: $solar; }
+.bg-solar-mid{ background-color: $solar-mid; }
+.bg-solar-dark{ background-color: $solar-dark; }
+.bg-heat-light{ background-color: $heat-light; }
+.bg-heat{ background-color: $heat; }
+.bg-heat-mid{ background-color: $heat-mid; }
+.bg-heat-dark{ background-color: $heat-dark; }
+.bg-wind-light{ background-color: $wind-light; }
+.bg-wind{ background-color: $wind; }
+.bg-wind-mid{ background-color: $wind-mid; }
+.bg-wind-dark{ background-color: $wind-dark; }
+.bg-water{ background-color: $water; }
+.bg-water-mid{ background-color: $water-mid; }
+.bg-water-dark{ background-color: $water-dark; }
+.bg-community{ background-color: $community; }
 
 // remove chrome and firefox button glow
 .btn:focus{
