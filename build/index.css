@@ -1,10 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Asap:400,500,700");
 h1, .h1 {
-  font-family: 'Asap-Bold' !important; }
+  font-family: 'Asap' !important;
+  font-weight: 500; }
 
 h2, .h2 {
-  font-family: 'Asap-Medium' !important; }
+  font-family: 'Asap' !important;
+  font-weight: 700; }
 
 .bg-primary {
   background-color: #0275d8; }
@@ -291,7 +293,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Asap-Regular";
+  font-family: "Asap";
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -3678,7 +3680,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Asap-Regular";
+  font-family: "Asap";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3760,7 +3762,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Asap-Regular";
+  font-family: "Asap";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

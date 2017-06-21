@@ -1,4 +1,4 @@
-$font-family-sans-serif: "Asap-Regular";
+$font-family-sans-serif: "Asap";
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
@@ -36,8 +36,8 @@ $font-size-h3: 3.375rem;
 $font-size-h4: 2.125rem;
 $font-size-h5: 1.5rem;
 
-h1, .h1 { font-family: 'Asap-Bold' !important;}
-h2, .h2 { font-family: 'Asap-Medium' !important; }
+h1, .h1 { font-family: 'Asap' !important; font-weight: 500; }
+h2, .h2 { font-family: 'Asap' !important; font-weight: 700; }
 
 .bg-primary { background-color: $brand-primary; }
 .bg-success { background-color: $brand-success; }
