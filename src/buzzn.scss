@@ -1,8 +1,10 @@
 @import "./font-face-builder";
-$font-path: "../fonts";
-@include font-face('Asap-Regular', '../fonts/Asap-Regular', 400, 'normal', 'ttf');
-@include font-face('Asap-Medium', '../fonts/Asap-Medium', 500, 'normal', 'ttf');
-@include font-face('Asap-Bold', '../fonts/Asap-Bold', 700, 'normal', 'ttf');
+// Temporary fix for blurry fonts in windows
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+// $font-path: "../fonts";
+// @include font-face('Asap-Regular', '../fonts/Asap-Regular', 400, 'normal', 'ttf');
+// @include font-face('Asap-Medium', '../fonts/Asap-Medium', 500, 'normal', 'ttf');
+// @include font-face('Asap-Bold', '../fonts/Asap-Bold', 700, 'normal', 'ttf');
 
 $grey-superlight: #f5f5f5;
 $grey-light: #e0e0e0;
