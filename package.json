@@ -21,7 +21,7 @@
   "peerDependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "^4.7.0",
-    "node-sass": "4.5.3",
+    "node-sass": "4.5.3"
   },
   "devDependencies": {
     "npm-watch": "^0.2.0",
