@@ -8,7 +8,7 @@ $font-family-base:       $font-family-sans-serif !default;
 $red:    #D84315;
 $orange: #f0ad4e;
 $yellow: #ffd500;
-$green:  #90CAF9;
+$green:  #7ED321;
 $blue:   #0275d8;
 $teal:   #5bc0de;
 $pink:   #ff5b77;
@@ -22,7 +22,7 @@ $gray-light:    #9E9E9E;
 $gray-lighter:  #BDBDBD;
 $gray-lightest: #F5F5F5;
 
-$brand-primary: $blue !default;
+$brand-primary: $gray-darkest !default;
 $brand-success: $green !default;
 $brand-info:    $teal !default;
 $brand-warning: $orange !default;
@@ -45,6 +45,7 @@ $font-size-h5: 1.5rem;
 
 h1, .h1 { font-family: 'Asap' !important; font-weight: 500; }
 h2, .h2 { font-family: 'Asap' !important; font-weight: 700; }
+h3, .h3, h4, .h4, h5, .h5 { font-weight: 700 !important;}
 
 .btn {
   text-transform: uppercase;
