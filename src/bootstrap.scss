@@ -1,24 +1,26 @@
+
 $font-family-sans-serif: "Asap";
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
 
 // Start with assigning color names to specific hex values.
-$red:    #d9534f;
+$red:    #D84315;
 $orange: #f0ad4e;
 $yellow: #ffd500;
-$green:  #5cb85c;
+$green:  #90CAF9;
 $blue:   #0275d8;
 $teal:   #5bc0de;
 $pink:   #ff5b77;
 $purple: #613d7c;
 
 // Create grayscale
-$gray-dark:     #292b2c;
-$gray:          #464a4c;
-$gray-light:    #636c72;
-$gray-lighter:  #eceeef;
-$gray-lightest: #f7f7f9;
+$gray-darkest:  #2F2F2F;
+$gray-dark:     #616161;
+$gray:          #8C8C8C;
+$gray-light:    #9E9E9E;
+$gray-lighter:  #BDBDBD;
+$gray-lightest: #F5F5F5;
 
 $brand-primary: $blue !default;
 $brand-success: $green !default;
@@ -36,8 +38,18 @@ $font-size-h3: 3.375rem;
 $font-size-h4: 2.125rem;
 $font-size-h5: 1.5rem;
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 h1, .h1 { font-family: 'Asap' !important; font-weight: 500; }
 h2, .h2 { font-family: 'Asap' !important; font-weight: 700; }
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: .8px;
+}
 
 .bg-primary { background-color: $brand-primary; }
 .bg-success { background-color: $brand-success; }
@@ -45,10 +57,11 @@ h2, .h2 { font-family: 'Asap' !important; font-weight: 700; }
 .bg-warning { background-color: $brand-warning; }
 .bg-danger { background-color: $brand-danger; }
 
-// @import "./node_modules/bootstrap/scss/./node_modules/bootstrap/scss/bootstrap";
+// import modules one by one
 @import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/variables";
-@import "custom-variables";
+// custom variable overrides
+@import "./custom-variables";
 @import "./node_modules/bootstrap/scss/mixins";
 @import "./node_modules/bootstrap/scss/print";
 @import "./node_modules/bootstrap/scss/reboot";

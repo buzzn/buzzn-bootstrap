@@ -1,5 +1,9 @@
+
+
+
+// theme colors
 $theme-colors: (
-  primary: $purple,
+  primary: $gray-darkest,
   secondary: $gray-600,
   success: $green,
   info: $cyan,
@@ -9,5 +13,30 @@ $theme-colors: (
   dark: $gray-800
 );
 
-$spacer: 0.8125rem;
-$font-size-base: 0.8125rem;
+// sizes
+$spacer: 1rem;
+$font-size-base: .8125rem;
+
+// border radius
+$border-radius:          .125rem;
+$border-radius-lg:       6rem;
+$border-radius-sm:       .0rem;
+
+// buttons
+$btn-border-radius:              $border-radius-lg;
+$btn-border-radius-lg:           $border-radius-lg;
+$btn-border-radius-sm:           $border-radius-lg;
+
+$btn-font-weight:                $font-weight-bold;
+
+$input-btn-padding-y:       .8125rem;
+$input-btn-padding-x:       1rem;
+$input-btn-line-height:     1;
+
+$input-btn-padding-y-lg:       .8125rem;
+$input-btn-padding-x-lg:       1rem;
+$input-btn-line-height-lg:     1;
+
+$input-btn-padding-y-sm:       .5;
+$input-btn-padding-x-sm:       1rem;
+$input-btn-line-height-sm:     1;
