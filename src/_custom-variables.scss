@@ -336,7 +336,7 @@ $input-btn-padding-y:       .8125rem;
 $input-btn-padding-x:       1rem;
 $input-btn-line-height:     0.9375;
 
-$input-btn-padding-y-sm:    .8125rem;
+$input-btn-padding-y-sm:    .625rem;
 $input-btn-padding-x-sm:    1rem;
 $input-btn-line-height-sm:  0.9375;
 
@@ -412,7 +412,7 @@ $input-group-addon-border-color: $input-border-color;
 $input-group-btn-border-color:   $input-border-color;
 
 $custom-control-gutter:   1.5rem;
-$custom-control-spacer-y: .25rem;
+$custom-control-spacer-y: .5rem;
 $custom-control-spacer-x: 1rem;
 
 $custom-control-indicator-size:       1rem;
@@ -444,7 +444,7 @@ $custom-checkbox-indicator-indeterminate-box-shadow: none;
 $custom-radio-indicator-border-radius: 50%;
 $custom-radio-indicator-icon-checked: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='#{$custom-control-indicator-checked-color}'/%3E%3C/svg%3E"), "#", "%23");
 
-$custom-select-padding-y:          .8125rem;
+$custom-select-padding-y:           .5rem;
 $custom-select-padding-x:           1rem;
 $custom-select-height:              $input-height;
 $custom-select-indicator-padding:   3rem; // Extra padding to account for the presence of the background-image based indicator

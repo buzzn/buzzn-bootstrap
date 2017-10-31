@@ -70,7 +70,7 @@ $community: $gray-400;
   -moz-box-shadow: none !important;
 }
 
-.btn {
+.btn, .form-control-sm {
   text-transform: uppercase;
   letter-spacing: .8px;
 }
@@ -89,6 +89,66 @@ a:focus{
   color: $grey-superlight;
 }
 
+label {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+  letter-spacing: .8;
+  text-transform: uppercase;
+  position: relative;
+
+  [type='checkbox'] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      position: relative;
+      width: 40px;
+      height: 20px;
+  }
+  [type='checkbox']:before {
+      font-family: FontAwesome;
+      content: ' ';
+      font-size: 24px;
+      position: absolute;
+      top: -5px; left: 0;
+      padding: 12px 8px;
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      border-radius: 2px;
+      border: 1px solid lightgray;
+      box-sizong: border-box;
+  }
+  [type='checkbox']:checked:before {
+      content: '\f00c';
+  }
+  [type='radio'] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      position: relative;
+      width: 40px;
+      height: 20px;
+  }
+  [type='radio']:before {
+      font-family: FontAwesome;
+      content: ' ';
+      font-size: 24px;
+      position: absolute;
+      top: -5px; left: 0;
+      padding: 12px 9px;
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      border-radius: 20px;
+      border: 1px solid lightgray;
+      box-sizong: border-box;
+  }
+  [type='radio']:checked:before {
+      content: '\f111';
+  }
+}
+
 //  select
 select:not([multiple]) {
   -webkit-appearance: none;
@@ -98,7 +158,12 @@ select:not([multiple]) {
   background-size: 10px;
   background-position: calc(100% - 16px) center;
   background-repeat: no-repeat;
+  padding: .5rem 1rem;
 }
+
+// radio and custom-checkbox-indicator-icon-checked
+
+
 
 /* ICONS */
 /*======================================*/
