@@ -1,63 +1,3 @@
-
-$font-family-sans-serif: "Asap";
-$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:       $font-family-sans-serif !default;
-
-// Start with assigning color names to specific hex values.
-$red:    #D84315;
-$orange: #f0ad4e;
-$yellow: #ffd500;
-$green:  #7ED321;
-$blue:   #0275d8;
-$teal:   #5bc0de;
-$pink:   #ff5b77;
-$purple: #613d7c;
-
-// Create grayscale
-$gray-darkest:  #2F2F2F;
-$gray-dark:     #616161;
-$gray:          #8C8C8C;
-$gray-light:    #9E9E9E;
-$gray-lighter:  #BDBDBD;
-$gray-lightest: #F5F5F5;
-
-$brand-primary: $gray-darkest !default;
-$brand-success: $green !default;
-$brand-info:    $teal !default;
-$brand-warning: $orange !default;
-$brand-danger:  $red !default;
-$brand-inverse: $gray-dark !default;
-
-$alert-border-radius: 0px;
-$alert-border-width: 0px;
-
-$font-size-h1: 4.5rem;
-$font-size-h2: 4.125rem;
-$font-size-h3: 3.375rem;
-$font-size-h4: 2.125rem;
-$font-size-h5: 1.5rem;
-
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1, .h1 { font-family: 'Asap' !important; font-weight: 500; }
-h2, .h2 { font-family: 'Asap' !important; font-weight: 700; }
-h3, .h3, h4, .h4, h5, .h5 { font-weight: 700 !important;}
-
-.btn {
-  text-transform: uppercase;
-  letter-spacing: .8px;
-}
-
-.bg-primary { background-color: $brand-primary; }
-.bg-success { background-color: $brand-success; }
-.bg-info { background-color: $brand-info; }
-.bg-warning { background-color: $brand-warning; }
-.bg-danger { background-color: $brand-danger; }
-
 // import modules one by one
 @import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/variables";
@@ -95,3 +35,74 @@ h3, .h3, h4, .h4, h5, .h5 { font-weight: 700 !important;}
 @import "./node_modules/bootstrap/scss/popover";
 @import "./node_modules/bootstrap/scss/carousel";
 @import "./node_modules/bootstrap/scss/utilities";
+
+
+// $font-family-sans-serif: "Asap";
+// $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+// $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+// $font-family-base:       $font-family-sans-serif !default;
+
+// COLOR REFERENCE
+// $blue:    #1E88E5;
+// $indigo:  #6610f2; // niu
+// $purple:  #6f42c1; // niu
+// $pink:    #e83e8c; // niu
+// $red:     #D84315;
+// $orange:  #F57C00;
+// $yellow:  #FDD835;
+// $green:   #7ED321;
+// $teal:    #00BCD4;
+// $cyan:    #17a2b8;
+
+// $white:  #fff;
+// $gray-100: #F5F5F5;
+// $gray-200: #E0E0E0;
+// $gray-300: #dee2e6; // not in use
+// $gray-400: #BDBDBD;
+// $gray-500: #9E9E9E;
+// $gray-600: #8C8C8C;
+// $gray-700: #616161;
+// $gray-800: #343a40; //not in use
+// $gray-900: #2F2F2F;
+// $black:  #000;
+
+// Create grayscale
+$gray-darkest:  $gray-900;
+$gray-dark:     $gray-700;
+$gray:          $gray-600;
+$gray-light:    $gray-500;
+$gray-lighter:  $gray-400;
+$gray-lightest: $gray-100;
+
+$brand-primary: $gray-darkest !default;
+$brand-success: $green !default;
+$brand-info:    $teal !default;
+$brand-warning: $orange !default;
+$brand-danger:  $red !default;
+$brand-inverse: $gray-dark !default;
+
+$alert-border-radius: 0px;
+$alert-border-width: 0px;
+
+$font-size-h1: 4.5rem;
+$font-size-h2: 4.125rem;
+$font-size-h3: 3.375rem;
+$font-size-h4: 2.125rem;
+$font-size-h5: 1.5rem;
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, .h1 { font-family: 'Asap' !important; font-weight: 500; }
+h2, .h2 { font-family: 'Asap' !important; font-weight: 700; }
+h3, .h3, h4, .h4, h5, .h5 { font-family: 'Asap' !important; font-weight: 700 !important;}
+
+
+
+.bg-primary { background-color: $brand-primary; }
+.bg-success { background-color: $brand-success; }
+.bg-info { background-color: $brand-info; }
+.bg-warning { background-color: $brand-warning; }
+.bg-danger { background-color: $brand-danger; }
