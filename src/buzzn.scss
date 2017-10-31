@@ -75,6 +75,10 @@ $community: $gray-400;
   letter-spacing: .8px;
 }
 
+.btn .fa {
+  margin-left: 8px;
+}
+
 a:focus{
   color: none !important;
 }
@@ -89,6 +93,10 @@ a:focus{
   color: $grey-superlight;
 }
 
+.form-control + .form-control {
+    margin-top: 8px;
+}
+
 label {
   font-size: 13px;
   font-weight: bold;
@@ -97,55 +105,47 @@ label {
   text-transform: uppercase;
   position: relative;
 
-  [type='checkbox'] {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      position: relative;
-      width: 40px;
-      height: 20px;
+  [type='checkbox'], [type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 40px;
+    height: 20px;
+  }
+  [type='checkbox']:focus, [type='radio']:focus {
+    outline: none;
+  }
+  input[type='checkbox']:focus::before,
+  input[type='radio']:focus::before {
+    border: 1px solid $gray-900;
+  }
+  [type='checkbox']:before, [type='radio']:before {
+    font-family: FontAwesome;
+    content: ' ';
+    font-size: 24px;
+    position: absolute;
+    top: -5px; left: 0;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid $gray-200;
+    box-sizong: border-box;
   }
   [type='checkbox']:before {
-      font-family: FontAwesome;
-      content: ' ';
-      font-size: 24px;
-      position: absolute;
-      top: -5px; left: 0;
-      padding: 12px 8px;
-      width: 40px;
-      height: 40px;
-      background: #fff;
-      border-radius: 2px;
-      border: 1px solid lightgray;
-      box-sizong: border-box;
-  }
-  [type='checkbox']:checked:before {
-      content: '\f00c';
-  }
-  [type='radio'] {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      position: relative;
-      width: 40px;
-      height: 20px;
+    padding: 12px 8px;
+    border-radius: 2px;
+
   }
   [type='radio']:before {
-      font-family: FontAwesome;
-      content: ' ';
-      font-size: 24px;
-      position: absolute;
-      top: -5px; left: 0;
-      padding: 12px 9px;
-      width: 40px;
-      height: 40px;
-      background: #fff;
-      border-radius: 20px;
-      border: 1px solid lightgray;
-      box-sizong: border-box;
+    padding: 12px 9px;
+    border-radius: 20px;
+  }
+  [type='checkbox']:checked:before {
+    content: '\f00c';
   }
   [type='radio']:checked:before {
-      content: '\f111';
+    content: '\f111';
   }
 }
 
@@ -161,9 +161,10 @@ select:not([multiple]) {
   padding: .5rem 1rem;
 }
 
-// radio and custom-checkbox-indicator-icon-checked
-
-
+// file
+[type='file'] {
+    display: none;
+}
 
 /* ICONS */
 /*======================================*/
