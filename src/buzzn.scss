@@ -70,7 +70,8 @@ $community: $gray-400;
   -moz-box-shadow: none !important;
 }
 
-.btn, .form-control-sm, .badge {
+.btn, .form-control-sm, .badge,
+.dropdown-header {
   text-transform: uppercase;
   letter-spacing: .05rem;
 }
@@ -91,6 +92,25 @@ a:focus{
 
 .panel {
   color: $grey-superlight;
+}
+
+//  btn secondary if freaking unique!
+
+.btn-secondary, .btn-outline-secondary {
+  border-radius: $border-radius !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: white;
+  border-color: transparent;
+  text-decoration: underline;
+  color: darken($link-color, 15%);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  color: darken($link-color, 15%);
 }
 
 // ******************* inputs ********************
@@ -117,7 +137,8 @@ label {
 .form-inline .form-control + .form-control,
 .form-inline .form-group + .form-group,
 .form-inline .form-group + button,
-.form-inline .form-group + [type="submit"]  {
+.form-inline .form-group + [type="submit"],
+.btn-group + .btn-group  {
     margin-left: .5rem;
 }
 
@@ -193,6 +214,55 @@ select:not([multiple]) {
 // file
 [type='file'] {
     display: none;
+}
+
+// breadcrumbs
+
+a.breadcrumb-item {
+  color: $gray-500;
+}
+
+// dropdown
+.dropdown-divider {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.dropdown-menu {
+  position: relative;
+  box-shadow: 0 0.1875rem 1rem rgba(0,0,0,0.1) !important;
+}
+
+.dropdown-menu:before {
+  content: '';
+  position: absolute;
+  top: -11px;
+  left: calc(50% - 11px);
+  width: 0;
+  height: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom: 11px solid #e0e0e0;
+}
+.dropdown-menu:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 10px);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+.dropdown-item:not([disabled]):hover,
+.dropdown-item:not([disabled]):focus {
+  text-decoration: underline;
+  cursor: pointer;
+  color: darken($link-color, 15%);
+  background: transparent;
+  outline: none;
 }
 
 /* ICONS */

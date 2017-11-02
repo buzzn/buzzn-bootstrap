@@ -500,28 +500,28 @@ $form-feedback-invalid-color: theme-color("danger");
 //
 // Dropdown menu container and contents.
 
-$dropdown-min-width:             10rem;
+$dropdown-min-width:             11.5rem;
 $dropdown-padding-y:             .5rem;
 $dropdown-spacer:                .125rem;
 $dropdown-bg:                    $white;
 $dropdown-border-color:          rgba($black,.15);
-$dropdown-border-width:          $border-width;
+$dropdown-border-width:          0;
 $dropdown-divider-bg:            $gray-200;
-$dropdown-box-shadow:            0 .5rem 1rem rgba($black,.175);
+$dropdown-box-shadow:            0 0.1875 1rem rgba($black,.1);
 
 $dropdown-link-color:            $gray-900;
 $dropdown-link-hover-color:      darken($gray-900, 5%);
-$dropdown-link-hover-bg:         $gray-100;
+$dropdown-link-hover-bg:         transparent;
 
 $dropdown-link-active-color:     $component-active-color;
 $dropdown-link-active-bg:        $component-active-bg;
 
-$dropdown-link-disabled-color:   $gray-600;
+$dropdown-link-disabled-color:   $gray-500;
 
-$dropdown-item-padding-y:        .25rem;
+$dropdown-item-padding-y:        .5rem;
 $dropdown-item-padding-x:        1.5rem;
 
-$dropdown-header-color:          $gray-600;
+$dropdown-header-color:          $gray-500;
 
 
 // Z-index master list
@@ -730,7 +730,7 @@ $modal-transition:            transform .3s ease-out;
 //
 // Define alert colors, border radius, and padding.
 
-$alert-padding-y:             .75rem;
+$alert-padding-y:             .8125rem;
 $alert-padding-x:             1.25rem;
 $alert-margin-bottom:         1rem;
 $alert-border-radius:         $border-radius;
@@ -794,15 +794,15 @@ $figure-caption-color:     $gray-600;
 
 // Breadcrumbs
 
-$breadcrumb-padding-y:          .75rem;
-$breadcrumb-padding-x:          1rem;
+$breadcrumb-padding-y:          .5rem;
+$breadcrumb-padding-x:          0;
 $breadcrumb-item-padding:       .5rem;
 
-$breadcrumb-margin-bottom:      1rem;
+$breadcrumb-margin-bottom:      .5rem;
 
-$breadcrumb-bg:                 $gray-200;
-$breadcrumb-divider-color:      $gray-600;
-$breadcrumb-active-color:       $gray-600;
+$breadcrumb-bg:                 transparent;
+$breadcrumb-divider-color:      $gray-500;
+$breadcrumb-active-color:       $gray-500;
 $breadcrumb-divider:            "/";
 
 
