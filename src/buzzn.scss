@@ -265,6 +265,33 @@ a.breadcrumb-item {
   outline: none;
 }
 
+//  nav tabs
+
+.nav-tabs {
+  border-bottom: 1px solid #E0E0E0;
+  max-height: 40px !important;
+}
+a.nav-link {
+  border-top-width: 0 !important;
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+  height: 40px !important;
+}
+
+a.nav-link.active,
+a.nav-link.active:hover,
+a.nav-link.active:active,
+a.nav-link.active:focus  {
+  border-bottom-width: 2px;
+  border-bottom-color: #222 !important;
+}
+
+a.nav-link:hover {
+  border-color: transparent !important;
+  border-bottom-width: 1px;
+  border-bottom-color: #222 !important;
+}
+
 /* ICONS */
 /*======================================*/
 .icon-wrap {
