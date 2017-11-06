@@ -698,7 +698,7 @@ $badge-pill-border-radius:    10rem;
 // Modals
 
 // Padding applied to the modal body
-$modal-inner-padding:         15px;
+$modal-inner-padding:         1rem;
 
 $modal-dialog-margin:         10px;
 $modal-dialog-margin-y-sm-up: 30px;
@@ -706,22 +706,22 @@ $modal-dialog-margin-y-sm-up: 30px;
 $modal-title-line-height:     $line-height-base;
 
 $modal-content-bg:               $white;
-$modal-content-border-color:     rgba($black,.2);
+$modal-content-border-color:     rgba($black,0);
 $modal-content-border-width:     $border-width;
-$modal-content-box-shadow-xs:    0 3px 9px rgba($black,.5);
-$modal-content-box-shadow-sm-up: 0 5px 15px rgba($black,.5);
+$modal-content-box-shadow-xs:    0 .125rem 2rem rgba($black,.62);
+$modal-content-box-shadow-sm-up: 0 .125rem 2rem rgba($black,.62);
 
 $modal-backdrop-bg:           $black;
-$modal-backdrop-opacity:      .5;
-$modal-header-border-color:   $gray-200;
+$modal-backdrop-opacity:      .72;
+$modal-header-border-color:   $gray-100;
 $modal-footer-border-color:   $modal-header-border-color;
 $modal-header-border-width:   $modal-content-border-width;
 $modal-footer-border-width:   $modal-header-border-width;
-$modal-header-padding:        15px;
+$modal-header-padding:        1.625rem;
 
-$modal-lg:                    800px;
-$modal-md:                    500px;
-$modal-sm:                    300px;
+$modal-lg:                    50rem;
+$modal-md:                    41.5rem;
+$modal-sm:                    24rem;
 
 $modal-transition:            transform .3s ease-out;
 
