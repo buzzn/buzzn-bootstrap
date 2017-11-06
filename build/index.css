@@ -8021,6 +8021,7 @@ a:focus {
   border-radius: 0.125rem !important; }
 
 .btn-secondary:hover,
+.btn-secondary:active,
 .btn-secondary:focus {
   background-color: white;
   border-color: transparent;
@@ -8028,8 +8029,18 @@ a:focus {
   color: #090909; }
 
 .btn-outline-secondary:hover,
+.btn-outline-secondary:active,
 .btn-outline-secondary:focus {
   color: #090909; }
+
+.card-link,
+.card-link:visited {
+  text-decoration: underline; }
+
+.card-link:hover,
+.card-link:active,
+.card-link:focus {
+  text-decoration: none; }
 
 input:not(.form-control-lg):not(.input-group-lg > .form-control):not(
 .input-group-lg > .input-group-addon):not(
@@ -8156,6 +8167,34 @@ a.breadcrumb-item {
   color: #090909;
   background: transparent;
   outline: none; }
+
+.dropup .dropdown-menu:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 11px);
+  width: 0;
+  height: 0;
+  border-bottom: 11px solid transparent;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 11px solid #e0e0e0; }
+
+.dropup .dropdown-menu:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 10px);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent; }
+
+.dropup .dropdown-menu {
+  margin-top: -10px;
+  margin-bottom: 0.125rem; }
 
 .nav-tabs {
   border-bottom: 1px solid #E0E0E0;
