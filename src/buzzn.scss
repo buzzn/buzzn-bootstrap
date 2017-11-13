@@ -145,6 +145,19 @@ input:not(.form-control-lg), label:not(.from-label-lg), .btn:not(.btn-lg) {
     max-height: 2.5rem;
 }
 
+.form-control,
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.form-control:focus {
+  border-bottom-width: 2px;
+}
+
 label {
   font-size: 13px;
   font-weight: bold;
@@ -187,7 +200,8 @@ label {
   }
   input[type='checkbox']:focus::before,
   input[type='radio']:focus::before {
-    border: 1px solid $gray-900;
+    border: 1px solid transparent;
+    border-bottom-color: $gray-900;
   }
   [type='checkbox']:before,
   [type='radio']:before {
@@ -200,24 +214,28 @@ label {
     width: 2.5rem;
     height: 2.5rem;
     background: #fff;
-    border: 1px solid $gray-200;
+    border: 1px solid transparent;
+    border-bottom-color: $gray-200;
     display: inline-block;
     vertical-align: middle;
   }
   [type='checkbox']:before {
     padding: 11px 8px;
-    border-radius: .125rem;
+    border-radius: 0;
 
   }
   [type='radio']:before {
     padding: 11px 9px;
-    border-radius: 1.25rem;
+    border-radius: 0;
   }
   [type='checkbox']:checked:before {
     content: '\f00c';
   }
   [type='radio']:checked:before {
     content: '\f111';
+  }
+  [type='radio']:not(:checked):before {
+    content: '\f10c';
   }
 }
 
