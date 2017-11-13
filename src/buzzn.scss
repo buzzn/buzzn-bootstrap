@@ -115,6 +115,8 @@ a:focus{
   color: darken($link-color, 15%);
 }
 
+// link
+
 .card-link,
 .card-link:visited {
   text-decoration: underline;
@@ -124,6 +126,17 @@ a:focus{
 .card-link:active,
 .card-link:focus  {
   text-decoration: none;
+}
+
+:not(nav) ~ a,
+:not(nav) ~ a:visited {
+    text-decoration: underline;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
 }
 
 // ******************* inputs ********************
@@ -336,6 +349,10 @@ a.nav-link:hover {
   border-color: transparent !important;
   border-bottom-width: 1px;
   border-bottom-color: #222 !important;
+}
+
+.nav-tabs + .tab-content {
+  margin-top: 1.5rem;
 }
 
 /* ICONS */

@@ -8042,6 +8042,15 @@ a:focus {
 .card-link:focus {
   text-decoration: none; }
 
+:not(nav) ~ a,
+:not(nav) ~ a:visited {
+  text-decoration: underline; }
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none; }
+
 input:not(.form-control-lg):not(.input-group-lg > .form-control):not(
 .input-group-lg > .input-group-addon):not(
 .input-group-lg > .input-group-btn > .btn), label:not(.from-label-lg), .btn:not(.btn-lg):not(.btn-group-lg > .btn) {
@@ -8217,6 +8226,9 @@ a.nav-link:hover {
   border-color: transparent !important;
   border-bottom-width: 1px;
   border-bottom-color: #222 !important; }
+
+.nav-tabs + .tab-content {
+  margin-top: 1.5rem; }
 
 /* ICONS */
 /*======================================*/
