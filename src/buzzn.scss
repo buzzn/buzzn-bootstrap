@@ -68,6 +68,9 @@ $community: $gray-400;
 .btn:focus{
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
+  box-shadow: none;
+  outline: none;
+  background-color: #000;
 }
 
 .btn, .form-control-sm, .badge,
@@ -127,6 +130,13 @@ a:focus{
 }
 
 // ******************* inputs ********************
+
+.form-control,
+.form-control:active,
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
 
 input:not(.form-control-lg), label:not(.from-label-lg), .btn:not(.btn-lg) {
     max-height: 2.5rem;

@@ -7994,7 +7994,10 @@ h3, .h3, h4, .h4, h5, .h5 {
 
 .btn:focus {
   -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important; }
+  -moz-box-shadow: none !important;
+  box-shadow: none;
+  outline: none;
+  background-color: #000; }
 
 .btn, .form-control-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
@@ -8041,6 +8044,12 @@ a:focus {
 .card-link:active,
 .card-link:focus {
   text-decoration: none; }
+
+.form-control,
+.form-control:active,
+.form-control:focus {
+  box-shadow: none;
+  outline: none; }
 
 input:not(.form-control-lg):not(.input-group-lg > .form-control):not(
 .input-group-lg > .input-group-addon):not(
