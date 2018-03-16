@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Asap:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i&subset=latin-ext");
 @media print {
   *,
   *::before,
@@ -64,7 +64,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: Asap, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 0.8125rem;
   font-weight: normal;
   line-height: 1.5;
@@ -3329,7 +3329,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Asap, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3411,7 +3411,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: Asap, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -5553,15 +5553,15 @@ a.text-dark:focus, a.text-dark:hover {
   -moz-osx-font-smoothing: grayscale; }
 
 h1, .h1 {
-  font-family: 'Asap' !important;
+  font-family: 'Lato' !important;
   font-weight: 500; }
 
 h2, .h2 {
-  font-family: 'Asap' !important;
+  font-family: 'Lato' !important;
   font-weight: 700; }
 
 h3, .h3, h4, .h4, h5, .h5 {
-  font-family: 'Asap' !important;
+  font-family: 'Lato' !important;
   font-weight: 700 !important; }
 
 .bg-primary {
