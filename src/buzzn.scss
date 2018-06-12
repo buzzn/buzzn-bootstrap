@@ -278,6 +278,12 @@ a.breadcrumb-item {
   border-right: 10px solid transparent;
   border-bottom: 10px solid #fff;
 }
+.dropdown-menu.icon-dropdown:before {
+  left: 4px;
+}
+.dropdown-menu.icon-dropdown:after {
+  left: 5px;
+}
 
 .dropdown-item:not([disabled]):hover,
 .dropdown-item:not([disabled]):focus {
