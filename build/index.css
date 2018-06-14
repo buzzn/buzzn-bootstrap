@@ -8546,10 +8546,10 @@ a.breadcrumb-item {
   border-bottom: 10px solid #fff; }
 
 .dropdown-menu.icon-dropdown:before {
-  left: 4px; }
+  left: 26px; }
 
 .dropdown-menu.icon-dropdown:after {
-  left: 5px; }
+  left: 27px; }
 
 .dropdown-item:not([disabled]):hover,
 .dropdown-item:not([disabled]):focus {
